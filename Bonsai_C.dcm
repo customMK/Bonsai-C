@@ -1,0 +1,105 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4148
+D Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP AAP2967-33VIR1
+D 300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23
+K LDO voltage regulator
+$ENDCMP
+#
+$CMP B5819W
+D 40V 1A Schottky Diode, SOD-123
+K diode Schottky
+$ENDCMP
+#
+$CMP Buzzer_JLCPCB
+D Buzzer, nonpolarized
+K quartz resonator ceramic
+F ~
+$ENDCMP
+#
+$CMP Buzzer_Mallory
+D Buzzer, nonpolarized
+K quartz resonator ceramic
+F ~
+$ENDCMP
+#
+$CMP Cap_tant_1uF_16V
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Cap_tant_4.7uF_10V
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP DTA143E
+D Digital PNP Transistor, 4k7/4k7, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTC143E
+D Digital NPN Transistor, 4k7/4k7, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP MIC5504-3.3YM5
+D 300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
+$CMP MUN5311DW1T1G
+D 1NPN,1PNP Pre-biased dual transistor, 10K/10K, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP MUN5332DW1T1G
+D 1NPN,1PNP Pre-biased dual transistor, 4k7/4k7, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP Molex_USB_C_Receptacle
+D USB Full-Featured Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP NUF2221W1T2G
+D ESD protection
+K ESD protection
+F https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF
+$ENDCMP
+#
+$CMP SMD-CRYSTAL-8MHZ-10PF-10PPM_4P-5.0X3.2MM_
+D Four pin crystal, GND on pins 2 and 4, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP SN74LV1T34DCKR
+D Single Buffer, SC70-5
+K Buffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf
+$ENDCMP
+#
+$CMP STM32F303CCT6
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M4 STM32F3 STM32F303
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf
+$ENDCMP
+#
+$CMP STM32F303VCT6
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 72MHz, 2-3.6V, 87 GPIO, LQFP-100
+K ARM Cortex-M4 STM32F3 STM32F303
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf
+$ENDCMP
+#
+#End Doc Library
