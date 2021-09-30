@@ -1,20 +1,37 @@
 # Bonsai C
 
-Brought to you by customMK, Bonsai C is an open source microcontroller board featuring an STM32F303CC microcontroller. Designed to be a drop-in-replacement for Proton C rev 2, Bonsai C is functionally equivalent to the Proton C, while incorporating several design and manufactring improvements.
+Brought to you by customMK, Bonsai C is an open source microcontroller board featuring an STM32F303CC microcontroller. Designed to be a drop-in-replacement for Proton C rev 2, Bonsai C is functionally equivalent to the Proton C, while incorporating several design and manufactring improvements, including being "JLCPCB-ready" (aside from components being out-of-stock, which may happen occasionally...or in the case of the STM32F303CC, does happen consistently).
 
-![Bonsai C schematic screenshot](img/Bonsai C schematic.png)
-![Bonsai C fabricated by JLCPCB](Bonsai C JLCPCB photo.jpg)
-![Bonsai C PCB front](img/Bonsai C front.png) 
-![Bonsai C PCB back](img/Bonsai C back.png) 
-![Bonsai C layers](img/Bonsai C layers.png) 
 
 ## Contents
 
+- [Images](#images)
 - [Background](#background)
-- [More info](#more-info)
-- [Build info](#build-info)
+- [Comparison to Proton C](#comparison-to-proton-c)
+- [Build information](#build-information)
 - [License](#license)
 
+
+## Images
+
+Bonsai C schematic screenshot
+
+<img width="890" alt="Bonsai C schematic" src="https://user-images.githubusercontent.com/8145762/135368910-4f4df901-d462-4e76-adea-b27d1ca6e6b2.png">
+
+Bonsai C fabricated by JLCPCB
+
+<img src="https://user-images.githubusercontent.com/8145762/135368388-da9367da-9e1b-4b06-abdc-4d8d9658e27e.jpg" width="200">
+Bonsai C PCB front
+
+<img width="200" alt="Bonsai C front" src="https://user-images.githubusercontent.com/8145762/135369024-da790e28-ae78-4fbe-8ac0-6569afe9ab0f.png">
+
+Bonsai C PCB back
+
+<img width="200" alt="Bonsai C back" src="https://user-images.githubusercontent.com/8145762/135369010-b38d721c-63c1-428b-8b84-19bf362b463b.png">
+
+Bonsai C layers
+
+<img width="200" alt="Bonsai C layers" src="https://user-images.githubusercontent.com/8145762/135368969-9ea1c17f-bcb1-4e4d-aa82-202842dbb81a.png">
 
 ## Background
 
@@ -35,19 +52,27 @@ Bonsai C has correct labeling of the C14 and C15 pads (they are currently swappe
 Bonsai C uses ceramic bulk decoupling capacitors instead of tantalum capacitors
 Bonsai C avoids via-in-pad (note: via-in-pad without non-conductive epoxy fill can cause solder joints to become starved of solder during assembly)
 
-##Build information
+## Build information
 
 Bonsai C is a four layer PCB design.
 
 If you plan to fabricate the Bonsai C design "as-is" without modificiation, within the "build" folder are three different zip files to make it easier to achieve this:
 
-Bonsai_C_Gerbers_Only.zip contains the Gerber files only. If you plan to solder parts on your own, you can simply take the zip file, send it to the PCB fab of your choice, and get boards made.
+<b>Bonsai_C_Gerbers_Only.zip</b> contains the Gerber files only. If you plan to solder parts on your own, you can simply take the zip file, send it to the PCB fab of your choice, and get boards made.
 
-Bonsai_C_PCBA.zip has the set of files needed to make fully-assembled PCBs; this includes the Gerber files above as well as a BOM and position file for assembly. These files can be provided to most of PCB assembly shops when ordering fully assembled boards. Depending on the assembly shop, it may be necessary to use alternative parts for some of the passive components (depending on where components are sourced from) but these replacements .
+<b>Bonsai_C_PCBA.zip</b> has the set of files needed to make fully-assembled PCBs; this includes the Gerber files above as well as a BOM and position file for assembly. These files can be provided to most of PCB assembly shops when ordering fully assembled boards. Depending on the assembly shop, it may be necessary to use alternative parts for some of the passive components (depending on where components are sourced from) but these replacements .
 
-Bonsai_C_JLCPCB_PCBA_20mm_wide.zip is the JLCPCB_PCBA zip file. This differs only from the above file in that the PCB is 2mm wider. For assembly services, JLCPCB requires the PCB to be at least 20mm wide, whereas Bonsai C is designed to be 18mm wide (to match Proton C size). There is no circuitry present in the extra 1mm on each side; it is simply a wider cut to meet JLCPCB assembly requirements. Note that the BOM and position files are already in JLCPCB format, so uploading the design can be done by simply uploading the Gerber zip, BOM file, and CPL file to JLCPCB. However, from time to time, parts may go in and out of stock without suitable replacements in the JLCPCB library, necessitating some tailoring and/or hand soldering of components.
+<b>Bonsai_C_JLCPCB_PCBA_20mm_wide.zip</b> is the JLCPCB_PCBA zip file. This differs only from the above file in that the PCB is 2mm wider. For assembly services, JLCPCB requires the PCB to be at least 20mm wide, whereas Bonsai C is designed to be 18mm wide (to match Proton C size). There is no circuitry present in the extra 1mm on each side; it is simply a wider cut to meet JLCPCB assembly requirements. Note that the BOM and position files are already in JLCPCB format, so uploading the design can be done by simply uploading the Gerber zip, BOM file, and CPL file to JLCPCB. However, from time to time, parts may go in and out of stock without suitable replacements in the JLCPCB library, necessitating some tailoring and/or hand soldering of components.
 
 To use the lower cost STM32F303CB microcontroller instead of STM32F303CC, simply edit the BOM file; the footprint is identical between the CC and CB variants.
+
+If you are unable to source the microcontroller directly, keep in mind that with the right equipment (hot air rework station) it is possible to transplant microcontroller from other boards you may have. If you plan to program (and let end users reflash) the microcontroller over USB by using QMK Toolbox, you will want you select a microcontroller that includes an embedded USB bootloader, of which there are relatively few options to choose from:
+
+![STM USB DFU](https://user-images.githubusercontent.com/8145762/135371363-8159e879-39a4-40b6-b926-7edc3be8aaf1.png)
+
+See [here](https://github.com/qmk/qmk_firmware/issues/4194) for more information, particularly yiancar's comment on Oct 22, 2018. 
+
+If you are willing to forego programming over the USB connector, and instead find it acceptable to use a low-cost SWD programmer (like ST-LINK) to flash new firmware onto the microcontroller, then there are many many more microcontroller options to choose from.
 
 ## License
 
