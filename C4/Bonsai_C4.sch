@@ -144,8 +144,6 @@ Text Label 5125 3725 0    50   ~ 0
 F0
 Text Label 4950 4725 0    50   ~ 0
 B3_SCK
-Text Label 4900 4825 0    50   ~ 0
-B4_MOSI
 Text Label 4900 4925 0    50   ~ 0
 B5_MOSI
 Text Label 5125 5025 0    50   ~ 0
@@ -1797,4 +1795,6 @@ Wire Wire Line
 	6025 3050 6125 3050
 Wire Wire Line
 	3125 5125 3550 5125
+Text Label 4900 4825 0    50   ~ 0
+B4_MISO
 $EndSCHEMATC

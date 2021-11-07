@@ -57,7 +57,7 @@ F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
 $ENDCMP
 #
 $CMP MB85RS512TPNF-G-JNERE1
-D 256Kb serial FRAM nonvolatile Memory, SOP-8
+D 512Kb serial FRAM nonvolatile Memory, SOP-8
 K FRAM I2C Serial FRAM NVRAM
 F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
 $ENDCMP
