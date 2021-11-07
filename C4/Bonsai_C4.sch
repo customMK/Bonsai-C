@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L Bonsai_C4:HEADER-VERT_1P-2.54_ J2
 U 1 1 609F8D95
-P 8825 4400
-F 0 "J2" H 9000 4400 45  0000 C CNN
-F 1 "HEADER-VERT_1P-2.54_" H 8775 4650 45  0001 L BNN
-F 2 "Bonsai_C4:PinHeader_1x01_P2.54mm_Vertical" H 8825 4400 39  0001 C CNN
-F 3 "" H 8825 4400 39  0001 C CNN
-	1    8825 4400
+P 8825 4900
+F 0 "J2" H 9000 4900 45  0000 C CNN
+F 1 "HEADER-VERT_1P-2.54_" H 8775 5150 45  0001 L BNN
+F 2 "Bonsai_C4:PinHeader_1x01_P2.54mm_Vertical" H 8825 4900 39  0001 C CNN
+F 3 "" H 8825 4900 39  0001 C CNN
+	1    8825 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -289,7 +289,7 @@ F 3 "" H 8400 3925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 4400 8525 4400
+	8400 4900 8525 4900
 $Comp
 L power:VBUS #PWR02
 U 1 1 6025E5B7
@@ -679,11 +679,7 @@ F 3 "" H 3750 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4100 5125 0    50   ~ 0
-B8_5V
-Text Label 3375 5125 0    50   ~ 0
-B8
-Wire Wire Line
-	3375 5125 3550 5125
+A10_5V
 Wire Wire Line
 	4000 5125 4100 5125
 Text Notes 3975 5225 0    50   ~ 0
@@ -742,7 +738,7 @@ Wire Wire Line
 	5525 7300 5525 7325
 Wire Wire Line
 	4650 7300 4650 7325
-Text Label 9175 2900 0    50   ~ 0
+Text Label 3375 5125 0    50   ~ 0
 A10
 $Comp
 L power:GND #PWR022
@@ -770,11 +766,11 @@ Text Label 9175 3300 0    50   ~ 0
 B10
 Text Label 9175 3400 0    50   ~ 0
 A4
-Text Label 9175 3500 0    50   ~ 0
+Text Label 9175 3700 0    50   ~ 0
 A8
 Text Label 9175 3600 0    50   ~ 0
 A3
-Text Label 9175 3700 0    50   ~ 0
+Text Label 9175 2900 0    50   ~ 0
 B7
 Text Label 9175 3800 0    50   ~ 0
 A2
@@ -825,7 +821,7 @@ Text Label 7700 3850 0    50   ~ 0
 B15
 Text Label 7700 3950 0    50   ~ 0
 B1
-Text Label 10175 4050 0    50   ~ 0
+Text Label 9175 3500 0    50   ~ 0
 B8
 Text Label 7725 4475 0    50   ~ 0
 C15
@@ -839,8 +835,8 @@ Text Label 4675 7300 0    50   ~ 0
 F0
 Text Label 5425 7300 0    50   ~ 0
 F1
-Text Label 8400 4400 0    50   ~ 0
-B8_5V
+Text Label 8400 4900 0    50   ~ 0
+A10_5V
 $Comp
 L Bonsai_C4:SMD-LED-WHITE_0402_ D3
 U 1 1 6073A714
@@ -1020,7 +1016,7 @@ Wire Wire Line
 Text Notes 7025 7075 0    79   ~ 0
 Bonsai C4\nDavid Hoelscher\nRay Hung\ncustomMK, LLC
 Text Notes 8125 7650 0    50   ~ 0
-3 November 2021
+7 November 2021
 Text Notes 10600 7625 0    50   ~ 0
 -
 Text Notes 7375 7500 0    79   ~ 0
@@ -1540,34 +1536,30 @@ Wire Wire Line
 $Comp
 L Bonsai_C4:r_100k_0402_1p R8
 U 1 1 61A19E42
-P 8825 2775
-F 0 "R8" H 8893 2821 50  0000 L CNN
-F 1 "r_100k_0402_1p" H 8855 2735 50  0001 L CNN
-F 2 "Bonsai_C4:R_0402_1005Metric" H 9550 2650 50  0001 C CNN
-F 3 "" H 8825 2775 50  0001 C CNN
-F 4 "0402WGF1003TCE" H 9225 2575 50  0001 C CNN "MPN"
-F 5 "100k" H 8893 2730 50  0000 L CNN "Display value"
-F 6 "C25741" H 8825 2775 50  0001 C CNN "LCSC"
-	1    8825 2775
+P 3125 5025
+F 0 "R8" H 3193 5071 50  0000 L CNN
+F 1 "r_100k_0402_1p" H 3155 4985 50  0001 L CNN
+F 2 "Bonsai_C4:R_0402_1005Metric" H 3850 4900 50  0001 C CNN
+F 3 "" H 3125 5025 50  0001 C CNN
+F 4 "0402WGF1003TCE" H 3525 4825 50  0001 C CNN "MPN"
+F 5 "100k" H 3193 4980 50  0000 L CNN "Display value"
+F 6 "C25741" H 3125 5025 50  0001 C CNN "LCSC"
+	1    3125 5025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8825 2875 8825 2900
-Wire Wire Line
-	8825 2900 9175 2900
 $Comp
 L power:+3.3V #PWR018
 U 1 1 61A2CD3A
-P 8825 2650
-F 0 "#PWR018" H 8825 2500 50  0001 C CNN
-F 1 "+3.3V" H 8840 2823 50  0000 C CNN
-F 2 "" H 8825 2650 50  0001 C CNN
-F 3 "" H 8825 2650 50  0001 C CNN
-	1    8825 2650
+P 3125 4900
+F 0 "#PWR018" H 3125 4750 50  0001 C CNN
+F 1 "+3.3V" H 3140 5073 50  0000 C CNN
+F 2 "" H 3125 4900 50  0001 C CNN
+F 3 "" H 3125 4900 50  0001 C CNN
+	1    3125 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8825 2650 8825 2675
+	3125 4900 3125 4925
 Text Notes 9150 1550 0    50   ~ 0
 This buffer is nice to have if space permits
 $Comp
@@ -1803,4 +1795,6 @@ Wire Wire Line
 Connection ~ 6225 3050
 Wire Wire Line
 	6025 3050 6125 3050
+Wire Wire Line
+	3125 5125 3550 5125
 $EndSCHEMATC
