@@ -278,12 +278,12 @@ D+
 $Comp
 L power:+5V #PWR01
 U 1 1 602555B2
-P 8400 3925
-F 0 "#PWR01" H 8400 3775 50  0001 C CNN
-F 1 "+5V" H 8415 4098 50  0000 C CNN
-F 2 "" H 8400 3925 50  0001 C CNN
-F 3 "" H 8400 3925 50  0001 C CNN
-	1    8400 3925
+P 7575 2850
+F 0 "#PWR01" H 7575 2700 50  0001 C CNN
+F 1 "+5V" H 7590 3023 50  0000 C CNN
+F 2 "" H 7575 2850 50  0001 C CNN
+F 3 "" H 7575 2850 50  0001 C CNN
+	1    7575 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -304,12 +304,12 @@ Wire Wire Line
 $Comp
 L power:VBUS #PWR07
 U 1 1 60262DB6
-P 7575 2850
-F 0 "#PWR07" H 7575 2700 50  0001 C CNN
-F 1 "VBUS" H 7590 3023 50  0000 C CNN
-F 2 "" H 7575 2850 50  0001 C CNN
-F 3 "" H 7575 2850 50  0001 C CNN
-	1    7575 2850
+P 8400 3925
+F 0 "#PWR07" H 8400 3775 50  0001 C CNN
+F 1 "VBUS" H 8415 4098 50  0000 C CNN
+F 2 "" H 8400 3925 50  0001 C CNN
+F 3 "" H 8400 3925 50  0001 C CNN
+	1    8400 3925
 	1    0    0    -1  
 $EndComp
 Connection ~ 2750 2275
@@ -341,22 +341,7 @@ F 3 "" H 3750 5375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 6725 5200 6725
-Wire Wire Line
-	4425 6725 4650 6725
-$Comp
-L power:GND #PWR025
-U 1 1 603F2743
-P 5650 6725
-F 0 "#PWR025" H 5650 6475 50  0001 C CNN
-F 1 "GND" H 5655 6552 50  0000 C CNN
-F 2 "" H 5650 6725 50  0001 C CNN
-F 3 "" H 5650 6725 50  0001 C CNN
-	1    5650 6725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 6725 5650 6725
+	10825 5800 10975 5800
 $Comp
 L power:+3.3V #PWR021
 U 1 1 603FA4DD
@@ -458,16 +443,16 @@ BOOT0
 $Comp
 L Bonsai_C4:r_75_0402_1p R4
 U 1 1 604DF694
-P 4750 6725
-F 0 "R4" V 4545 6725 50  0000 C CNN
-F 1 "r_75_0402_1p" H 4780 6685 50  0001 L CNN
-F 2 "Bonsai_C4:R_0402_1005Metric" H 5475 6600 50  0001 C CNN
-F 3 "" H 4750 6725 50  0001 C CNN
-F 4 "0402WGF750JTCE" H 5150 6525 50  0001 C CNN "MPN"
-F 5 "Uniroyal" H 4925 6450 50  0001 C CNN "Mfg"
-F 6 "75" V 4636 6725 50  0000 C CNN "Display value"
-F 7 "C25133" H 4750 6725 50  0001 C CNN "LCSC"
-	1    4750 6725
+P 10725 5800
+F 0 "R4" V 10520 5800 50  0000 C CNN
+F 1 "r_75_0402_1p" H 10755 5760 50  0001 L CNN
+F 2 "Bonsai_C4:R_0402_1005Metric" H 11450 5675 50  0001 C CNN
+F 3 "" H 10725 5800 50  0001 C CNN
+F 4 "0402WGF750JTCE" H 11125 5600 50  0001 C CNN "MPN"
+F 5 "Uniroyal" H 10900 5525 50  0001 C CNN "Mfg"
+F 6 "75" V 10611 5800 50  0000 C CNN "Display value"
+F 7 "C25133" H 10725 5800 50  0001 C CNN "LCSC"
+	1    10725 5800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -838,15 +823,15 @@ A10_5V
 $Comp
 L Bonsai_C4:SMD-LED-WHITE_0402_ D3
 U 1 1 6073A714
-P 5350 6725
-F 0 "D3" H 5350 7054 45  0000 C CNN
-F 1 "SMD-LED-WHITE_0402_" H 5350 6970 45  0000 C CNN
-F 2 "Bonsai_C4:LED_0402" H 5350 6725 39  0001 C CNN
-F 3 "" H 5350 6725 39  0001 C CNN
-F 4 "16-219A/T2D-AR2T1QY/3T" H 5380 6875 20  0001 C CNN "MPN"
-F 5 "C74342" H 5380 6875 20  0001 C CNN "LCSC"
-	1    5350 6725
-	1    0    0    -1  
+P 10125 5800
+F 0 "D3" H 10150 5650 45  0000 C CNN
+F 1 "SMD-LED-WHITE_0402_" H 10100 5575 45  0000 C CNN
+F 2 "Bonsai_C4:LED_0402" H 10125 5800 39  0001 C CNN
+F 3 "" H 10125 5800 39  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 10155 5950 20  0001 C CNN "MPN"
+F 5 "C74342" H 10155 5950 20  0001 C CNN "LCSC"
+	1    10125 5800
+	-1   0    0    1   
 $EndComp
 $Comp
 L Bonsai_C4:PAD_SQUARE_1MM J14
@@ -1014,7 +999,7 @@ Wire Wire Line
 Text Notes 7025 7075 0    79   ~ 0
 Bonsai C4\nDavid Hoelscher\nRay Hung\ncustomMK, LLC
 Text Notes 8125 7650 0    50   ~ 0
-9 November 2021
+10 November 2021
 Text Notes 10600 7625 0    50   ~ 0
 -
 Text Notes 7375 7500 0    79   ~ 0
@@ -1201,30 +1186,6 @@ F 7 "C25133" H 7825 1700 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Bonsai_C4:MB85RS512TPNF-G-JNERE1 U7
-U 1 1 61831560
-P 1475 6850
-F 0 "U7" H 1650 6375 50  0000 C CNN
-F 1 "MB85RS512TPNF-G-JNERE1" H 2050 6475 50  0000 C CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 1475 6850 50  0001 C CNN
-F 3 "https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf" H 1275 7200 50  0001 C CNN
-F 4 "C126728" H 1475 6850 50  0001 C CNN "LCSC"
-	1    1475 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bonsai_C4:W25Q128JVSIQ U6
-U 1 1 61832110
-P 3400 6825
-F 0 "U6" H 3500 7325 50  0000 C CNN
-F 1 "W25Q128JVSIQ" H 3725 7200 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 3400 6825 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3400 6825 50  0001 C CNN
-F 4 "C97521" H 3400 6825 50  0001 C CNN "LCSC"
-	1    3400 6825
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0107
 U 1 1 6188FB2C
 P 3400 6300
@@ -1324,8 +1285,8 @@ Wire Wire Line
 	3900 6725 3950 6725
 Wire Wire Line
 	3950 6625 3900 6625
-Text Notes 3725 850  0    50   ~ 0
-VBUS detection is currently only checked for\nsplit keyboard designs in QMK. If Bonsai C4 is used as a\nreference implementation for a non-split and non-battery-\npowered keyboard, pin A9 can be used as GPIO instead
+Text Notes 3450 825  0    50   ~ 0
+VBUS detection is currently only checked for split keyboard\ndesigns in QMK. If Bonsai C4 is used as a reference\nimplementation for non-split and non-battery-powered\nkeyboard, R4/R5 can be removed and pin A9 can be used as GPIO
 $Comp
 L Bonsai_C4:cap_100nF_16v_0402 C5
 U 1 1 619A206D
@@ -1558,8 +1519,6 @@ F 3 "" H 3050 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 4900 3050 4925
-Text Notes 9125 1875 0    50   ~ 0
-This buffer is nice to have if space permits
 $Comp
 L power:GND #PWR028
 U 1 1 61CEB93F
@@ -1798,18 +1757,6 @@ Wire Wire Line
 Text Label 4900 4825 0    50   ~ 0
 B4_MISO
 $Comp
-L Bonsai_C4:MUN5311DW1T1G Q2
-U 1 1 618B0F94
-P 9675 6025
-F 0 "Q2" H 9600 5925 50  0000 R CNN
-F 1 "MUN5311DW1T1G" H 9600 6000 50  0000 R CNN
-F 2 "" H 9775 6025 50  0001 L CNN
-F 3 "" H 9775 6025 50  0001 L CNN
-F 4 "C152542" H 9775 6025 50  0001 C CNN "LCSC"
-	1    9675 6025
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR029
 U 1 1 618C9AB4
 P 8575 6275
@@ -1822,35 +1769,111 @@ F 3 "" H 8575 6275 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 6225 8575 6275
-$Comp
-L Bonsai_C4:r_75_0402_1p R9
-U 1 1 618DA4E9
-P 8325 5825
-F 0 "R9" V 8120 5825 50  0000 C CNN
-F 1 "r_75_0402_1p" H 8355 5785 50  0001 L CNN
-F 2 "" H 9050 5700 50  0001 C CNN
-F 3 "" H 8325 5825 50  0001 C CNN
-F 4 "0402WGF750JTCE" H 8725 5625 50  0001 C CNN "MPN"
-F 5 "Uniroyal" H 8500 5550 50  0001 C CNN "Mfg"
-F 6 "75" V 8211 5825 50  0000 C CNN "Display value"
-F 7 "C25133" H 8325 5825 50  0001 C CNN "LCSC"
-	1    8325 5825
-	0    1    1    0   
-$EndComp
 Text Label 7950 5825 0    50   ~ 0
 B2
 Wire Wire Line
 	7950 5825 8225 5825
 Wire Wire Line
 	8425 5825 8575 5825
-Text Label 9025 6025 0    50   ~ 0
+Text Label 8925 5775 0    50   ~ 0
 BOOT0
 Wire Wire Line
-	8925 6025 9025 6025
-Text Notes 8025 5500 0    50   ~ 0
-If using Bonsai C4 as a reference design implementation,\npin B2 may be used for GPIO (e.g. switch matrix)\ninstead of dedicated to an LED if pin B2 is implemented with a\ntemporary pull down when BOOT0 is high. Example:
-Wire Bus Line
-	7700 6525 7700 5150
-Wire Bus Line
-	7700 5150 11225 5150
+	8925 6025 8925 5775
+Text Notes 7625 5500 0    50   ~ 0
+If using Bonsai C4 as a reference design implementation,\npin B2 may be used for GPIO (e.g. switch matrix). \nLED will illuminate during matrix scan, but LED can be removed.\nDo not connect B2 to any interface that may drive the signal high\nas this may interfere with the ability to boot into USB DFU.
+Text Label 9325 5775 0    50   ~ 0
+B2
+Wire Wire Line
+	9325 5775 9325 6025
+Wire Wire Line
+	9675 5800 9675 5825
+Wire Wire Line
+	9675 5800 9975 5800
+Wire Wire Line
+	10625 5800 10275 5800
+$Comp
+L power:+3.3V #PWR025
+U 1 1 6194A92A
+P 10975 5700
+F 0 "#PWR025" H 10975 5550 50  0001 C CNN
+F 1 "+3.3V" H 10990 5873 50  0000 C CNN
+F 2 "" H 10975 5700 50  0001 C CNN
+F 3 "" H 10975 5700 50  0001 C CNN
+	1    10975 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10975 5700 10975 5800
+$Comp
+L Bonsai_C4:r_470_0402_1p R9
+U 1 1 619D41CE
+P 8325 5825
+F 0 "R9" V 8120 5825 50  0000 C CNN
+F 1 "r_470_0402_1p" H 8355 5785 50  0001 L CNN
+F 2 "Bonsai_C4:R_0402_1005Metric" H 9050 5700 50  0001 C CNN
+F 3 "" H 8325 5825 50  0001 C CNN
+F 4 "0402WGF4700TCE" H 8725 5625 50  0001 C CNN "MPN"
+F 5 "Uniroyal" H 8500 5550 50  0001 C CNN "Mfg"
+F 6 "470" V 8211 5825 50  0000 C CNN "Display value"
+F 7 "C25117" H 8325 5825 50  0001 C CNN "LCSC"
+	1    8325 5825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 619D4E67
+P 9675 6275
+F 0 "#PWR030" H 9675 6025 50  0001 C CNN
+F 1 "GND" H 9680 6102 50  0000 C CNN
+F 2 "" H 9675 6275 50  0001 C CNN
+F 3 "" H 9675 6275 50  0001 C CNN
+	1    9675 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 6225 9675 6275
+Text Notes 8600 1050 0    50   ~ 0
+This buffer is not requried to level shift (LV1T),\nand may be substituted with other buffer logic\nICs (e.g. SN74LVC1G34DCKR, or SN74LVC1G125DCKR with enable)
+Text Notes 2225 5500 0    50   ~ 0
+This buffer performs level shifting.\nMay not be required if 5V signals \nare not needed (RGB LED dependent)
+Text Label 10175 4050 0    50   ~ 0
+B2
+Text Notes 7825 6000 0    50   ~ 0
+B2 is BOOT1
+$Comp
+L Bonsai_C4:MUN5311DW1T1G Q2
+U 1 1 618EF17F
+P 9675 6025
+F 0 "Q2" H 9600 5925 50  0000 R CNN
+F 1 "MUN5311DW1T1G" H 9600 6000 50  0000 R CNN
+F 2 "Bonsai_C4:SOT-363_SC-70-6_SC-88" H 9775 6025 50  0001 L CNN
+F 3 "" H 9775 6025 50  0001 L CNN
+F 4 "C152542" H 9775 6025 50  0001 C CNN "LCSC"
+	1    9675 6025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Bonsai_C4:MB85RS512TPNF-G-JNERE1 U7
+U 1 1 61918825
+P 1475 6850
+F 0 "U7" H 1675 6475 50  0000 C CNN
+F 1 "MB85RS512TPNF-G-JNERE1" H 2150 6375 50  0000 C CNN
+F 2 "Bonsai_C4:SOP-8_3.9x4.9mm_P1.27mm" H 1475 6850 50  0001 C CNN
+F 3 "https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf" H 1275 7200 50  0001 C CNN
+F 4 "C126728" H 1475 6850 50  0001 C CNN "LCSC"
+	1    1475 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bonsai_C4:W25Q128JVSIQ U6
+U 1 1 6192B321
+P 3400 6825
+F 0 "U6" H 3500 7275 50  0000 C CNN
+F 1 "W25Q128JVSIQ" H 3725 7200 50  0000 C CNN
+F 2 "Bonsai_C4:SOIC-8_5.23x5.23mm_P1.27mm" H 3400 6825 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3400 6825 50  0001 C CNN
+F 4 "C97521" H 3400 6825 50  0001 C CNN "LCSC"
+	1    3400 6825
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
