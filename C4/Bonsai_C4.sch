@@ -286,8 +286,6 @@ F 3 "" H 7575 2850 50  0001 C CNN
 	1    7575 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 4900 8525 4900
 $Comp
 L power:VBUS #PWR02
 U 1 1 6025E5B7
@@ -808,7 +806,7 @@ Text Label 9175 3500 0    50   ~ 0
 B8
 Text Label 7725 4475 0    50   ~ 0
 C15
-Text Label 9175 2800 0    50   ~ 0
+Text Label 8975 2650 2    50   ~ 0
 A15
 Wire Wire Line
 	5125 3725 5325 3725
@@ -818,7 +816,7 @@ Text Label 4675 7300 0    50   ~ 0
 F0
 Text Label 5425 7300 0    50   ~ 0
 F1
-Text Label 8400 4900 0    50   ~ 0
+Text Label 8475 4550 2    50   ~ 0
 A10_5V
 $Comp
 L Bonsai_C4:SMD-LED-WHITE_0402_ D3
@@ -1876,4 +1874,38 @@ Text Label 4125 3725 0    50   ~ 0
 D-
 Text Label 4125 3525 0    50   ~ 0
 D+
+Text Label 9375 2650 0    50   ~ 0
+A10_5V
+Text Label 10475 1875 0    50   ~ 0
+A15
+$Comp
+L Bonsai_C4:SolderJumper_3_Bridged12 JP1
+U 1 1 61BF974D
+P 9175 2650
+F 0 "JP1" H 9175 2763 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 9175 2764 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9175 2650 50  0001 C CNN
+F 3 "~" H 9175 2650 50  0001 C CNN
+	1    9175 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bonsai_C4:SolderJumper_3_Bridged12 JP2
+U 1 1 61C1E94D
+P 8675 4550
+F 0 "JP2" H 8675 4663 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 8675 4664 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 8675 4550 50  0001 C CNN
+F 3 "~" H 8675 4550 50  0001 C CNN
+	1    8675 4550
+	1    0    0    -1  
+$EndComp
+Text Label 8875 4550 0    50   ~ 0
+A15
+Wire Wire Line
+	8675 4700 8675 4775
+Wire Wire Line
+	8675 4775 8525 4775
+Wire Wire Line
+	8525 4775 8525 4900
 $EndSCHEMATC

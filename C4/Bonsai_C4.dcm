@@ -135,6 +135,12 @@ D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 100MHz, 1.7-3.6V, 37 GPIO, LQFN-48
 K ARM Cortex-M4 STM32F4 STM32F411CEU6
 $ENDCMP
 #
+$CMP SolderJumper_3_Bridged12
+D 3-pole Solder Jumper, pins 1+2 closed/bridged
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP W25Q128JVSIQ
 D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
 K flash memory SPI
