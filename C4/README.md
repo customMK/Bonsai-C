@@ -24,7 +24,7 @@ Bonsai C schematic screenshot
 
 Bonsai C PCB front
 
-<img width="200" alt="Bonsai C front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20frong.png">
+<img width="200" alt="Bonsai C front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20front.png">
 
 Bonsai C PCB back
 
