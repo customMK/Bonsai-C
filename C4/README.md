@@ -20,15 +20,15 @@ Limitations the STM32F411CEU6 are of particular concern to designers of split ke
 
 Bonsai C schematic screenshot
 
-<img width="890" alt="Bonsai C schematic" src="https://user-images.githubusercontent.com/8145762/135368910-4f4df901-d462-4e76-adea-b27d1ca6e6b2.png">
+<img width="890" alt="Bonsai C schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20schematic.png">
 
 Bonsai C PCB front
 
-<img width="200" alt="Bonsai C front" src="https://user-images.githubusercontent.com/8145762/135369024-da790e28-ae78-4fbe-8ac0-6569afe9ab0f.png">
+<img width="200" alt="Bonsai C front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20frong.png">
 
 Bonsai C PCB back
 
-<img width="200" alt="Bonsai C back" src="https://user-images.githubusercontent.com/8145762/135369010-b38d721c-63c1-428b-8b84-19bf362b463b.png">
+<img width="200" alt="Bonsai C back" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20back.png">
 
 
 ## License
