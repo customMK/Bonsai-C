@@ -427,10 +427,10 @@ Wire Wire Line
 	6575 925  6575 1250
 Text Label 7100 1700 0    50   ~ 0
 SwitchPin
-Text Label 10650 2850 0    50   ~ 0
+Text Label 10650 3300 0    50   ~ 0
 SwitchPin
 Wire Wire Line
-	10650 2850 10550 2850
+	10650 3300 10550 3300
 Wire Wire Line
 	6925 1700 7675 1700
 Connection ~ 7675 1700
@@ -724,36 +724,31 @@ A10
 $Comp
 L power:GND #PWR022
 U 1 1 60604336
-P 8825 3100
-F 0 "#PWR022" H 8825 2850 50  0001 C CNN
-F 1 "GND" H 8830 2927 50  0000 C CNN
-F 2 "" H 8825 3100 50  0001 C CNN
-F 3 "" H 8825 3100 50  0001 C CNN
-	1    8825 3100
+P 8825 3000
+F 0 "#PWR022" H 8825 2750 50  0001 C CNN
+F 1 "GND" H 8830 2827 50  0000 C CNN
+F 2 "" H 8825 3000 50  0001 C CNN
+F 3 "" H 8825 3000 50  0001 C CNN
+	1    8825 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8825 3100 9075 3100
 Wire Wire Line
 	9175 3000 9075 3000
 Wire Wire Line
 	9075 3000 9075 3100
-Connection ~ 9075 3100
 Wire Wire Line
 	9075 3100 9175 3100
-Text Label 9175 3200 0    50   ~ 0
+Text Label 10325 2075 2    50   ~ 0
 B9
-Text Label 9175 3300 0    50   ~ 0
+Text Label 9175 3700 0    50   ~ 0
 B10
 Text Label 9175 3400 0    50   ~ 0
 A4
-Text Label 9175 3700 0    50   ~ 0
+Text Label 9175 3800 0    50   ~ 0
 A8
 Text Label 9175 3600 0    50   ~ 0
 A3
-Text Label 9175 2900 0    50   ~ 0
-B7
-Text Label 9175 3800 0    50   ~ 0
+Text Label 7725 4575 0    50   ~ 0
 A2
 Text Label 9175 3900 0    50   ~ 0
 B0
@@ -761,8 +756,6 @@ Text Label 7725 4775 0    50   ~ 0
 A13
 Text Label 7725 4675 0    50   ~ 0
 A14
-Text Label 7725 4575 0    50   ~ 0
-B6
 Text Label 7725 4375 0    50   ~ 0
 C14
 Text Label 9150 4875 0    50   ~ 0
@@ -806,7 +799,7 @@ Text Label 9175 3500 0    50   ~ 0
 B8
 Text Label 7725 4475 0    50   ~ 0
 C15
-Text Label 8975 2650 2    50   ~ 0
+Text Label 10325 1225 2    50   ~ 0
 A15
 Wire Wire Line
 	5125 3725 5325 3725
@@ -816,7 +809,7 @@ Text Label 4675 7300 0    50   ~ 0
 F0
 Text Label 5425 7300 0    50   ~ 0
 F1
-Text Label 8475 4550 2    50   ~ 0
+Text Label 8525 4900 2    50   ~ 0
 A10_5V
 $Comp
 L Bonsai_C4:SMD-LED-WHITE_0402_ D3
@@ -926,16 +919,16 @@ Connection ~ 1825 5350
 Wire Wire Line
 	1825 5350 1925 5350
 Wire Wire Line
-	10550 2650 10650 2650
+	10550 3100 10650 3100
 $Comp
 L power:+3.3V #PWR019
 U 1 1 60412931
-P 10650 2650
-F 0 "#PWR019" H 10650 2500 50  0001 C CNN
-F 1 "+3.3V" H 10665 2823 50  0000 C CNN
-F 2 "" H 10650 2650 50  0001 C CNN
-F 3 "" H 10650 2650 50  0001 C CNN
-	1    10650 2650
+P 10650 3100
+F 0 "#PWR019" H 10650 2950 50  0001 C CNN
+F 1 "+3.3V" H 10665 3273 50  0000 C CNN
+F 2 "" H 10650 3100 50  0001 C CNN
+F 3 "" H 10650 3100 50  0001 C CNN
+	1    10650 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -983,7 +976,7 @@ Wire Wire Line
 Text Notes 7025 7075 0    79   ~ 0
 Bonsai C4\nDavid Hoelscher\nRay Hung\ncustomMK, LLC
 Text Notes 8125 7650 0    50   ~ 0
-10 November 2021
+23 January 2022
 Text Notes 10600 7625 0    50   ~ 0
 -
 Text Notes 7375 7500 0    79   ~ 0
@@ -1762,7 +1755,7 @@ BOOT0
 Wire Wire Line
 	8925 6025 8925 5775
 Text Notes 7625 5500 0    50   ~ 0
-If using Bonsai C4 as a reference design implementation,\npin B2 may be used for GPIO (e.g. switch matrix). \nLED will illuminate during matrix scan, but LED can be removed.\nDo not connect B2 to any interface that may drive the signal high\nas this may interfere with the ability to boot into USB DFU.
+Pin B2 may be used for GPIO (e.g. switch matrix). \nLED D3 will illuminate during matrix scan, but the LED can be removed.\nDo not connect B2 to any interface that may drive the signal high\nas this may interfere with the ability to boot into USB DFU.
 Text Label 9325 5775 0    50   ~ 0
 B2
 Wire Wire Line
@@ -1814,8 +1807,8 @@ F 3 "" H 9675 6275 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9675 6225 9675 6275
-Text Notes 8600 1050 0    50   ~ 0
-This buffer is not requried to level shift (LV1T),\nand may be substituted with other buffer logic\nICs (e.g. SN74LVC1G34DCKR, or SN74LVC1G125DCKR with enable)
+Text Notes 7925 875  0    50   ~ 0
+Buffer U5 (“LV1T”) is not for level shifting purposes,\nand thus may be substituted with other buffer logic\nICs (SN74LVC1G34DCKR, SN74LVC1G125DCKR with enable, etc.)
 Text Notes 2225 5500 0    50   ~ 0
 This buffer performs level shifting.\nMay not be required if 5V signals \nare not needed (RGB LED dependent)
 Text Label 10175 4050 0    50   ~ 0
@@ -1861,53 +1854,45 @@ $EndComp
 $Comp
 L Bonsai_C4:SMD-SWITCH-TACTILE-SPST-NO_4P-3.0MMx2.6MM_ K1
 U 1 1 61987EB2
-P 10200 2750
-F 0 "K1" H 10200 3020 45  0000 C CNN
-F 1 "SMD-SWITCH-TACTILE-SPST-NO_4P-3.0MMx2.6MM_" H 10200 3020 45  0001 C CNN
-F 2 "Bonsai_C4:SW4-SMD-3.0X2.6X0.7MM" H 10200 2750 39  0001 C CNN
-F 3 "" H 10200 2750 39  0001 C CNN
-F 4 "EVPAF7B70" H 10230 2900 20  0001 C CNN "MPN"
-	1    10200 2750
+P 10200 3200
+F 0 "K1" H 10200 3470 45  0000 C CNN
+F 1 "SMD-SWITCH-TACTILE-SPST-NO_4P-3.0MMx2.6MM_" H 10200 3470 45  0001 C CNN
+F 2 "Bonsai_C4:SW4-SMD-3.0X2.6X0.7MM" H 10200 3200 39  0001 C CNN
+F 3 "" H 10200 3200 39  0001 C CNN
+F 4 "EVPAF7B70" H 10230 3350 20  0001 C CNN "MPN"
+	1    10200 3200
 	1    0    0    -1  
 $EndComp
 Text Label 4125 3725 0    50   ~ 0
 D-
 Text Label 4125 3525 0    50   ~ 0
 D+
-Text Label 9375 2650 0    50   ~ 0
-A10_5V
-Text Label 10475 1875 0    50   ~ 0
-A15
+Text Label 9175 2800 0    50   ~ 0
+PD3
 $Comp
 L Bonsai_C4:SolderJumper_3_Bridged12 JP1
 U 1 1 61BF974D
-P 9175 2650
-F 0 "JP1" H 9175 2763 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 9175 2764 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9175 2650 50  0001 C CNN
-F 3 "~" H 9175 2650 50  0001 C CNN
-	1    9175 2650
+P 10525 1225
+F 0 "JP1" H 10525 1338 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 10525 1339 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10525 1225 50  0001 C CNN
+F 3 "~" H 10525 1225 50  0001 C CNN
+	1    10525 1225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Bonsai_C4:SolderJumper_3_Bridged12 JP2
 U 1 1 61C1E94D
-P 8675 4550
-F 0 "JP2" H 8675 4663 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 8675 4664 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 8675 4550 50  0001 C CNN
-F 3 "~" H 8675 4550 50  0001 C CNN
-	1    8675 4550
+P 10525 1650
+F 0 "JP2" H 10525 1763 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 10525 1764 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10525 1650 50  0001 C CNN
+F 3 "~" H 10525 1650 50  0001 C CNN
+	1    10525 1650
 	1    0    0    -1  
 $EndComp
-Text Label 8875 4550 0    50   ~ 0
+Text Label 10725 1650 0    50   ~ 0
 A15
-Wire Wire Line
-	8675 4700 8675 4775
-Wire Wire Line
-	8675 4775 8525 4775
-Wire Wire Line
-	8525 4775 8525 4900
 Text Label 10100 4750 0    50   ~ 0
 VBUS_DET
 $Comp
@@ -1923,4 +1908,61 @@ F 3 "" H 10575 4750 39  0001 C CNN
 $EndComp
 Wire Wire Line
 	10100 4750 10275 4750
+Text Label 10725 1225 0    50   ~ 0
+B7
+Text Label 10325 1650 2    50   ~ 0
+B7
+Wire Wire Line
+	8825 3000 9075 3000
+Connection ~ 9075 3000
+Text Label 9175 2900 0    50   ~ 0
+PD2
+Wire Wire Line
+	10525 1375 10525 1450
+Text Label 10525 1450 0    50   ~ 0
+PD3
+Text Label 10525 1875 0    50   ~ 0
+PD2
+Wire Wire Line
+	10525 1800 10525 1875
+Text Label 9175 3200 0    50   ~ 0
+PD1
+Text Label 9175 3300 0    50   ~ 0
+PD0
+Text Label 10725 2075 0    50   ~ 0
+B6
+$Comp
+L Bonsai_C4:SolderJumper_3_Bridged12 JP3
+U 1 1 62233841
+P 10525 2075
+F 0 "JP3" H 10525 2188 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 10525 2189 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10525 2075 50  0001 C CNN
+F 3 "~" H 10525 2075 50  0001 C CNN
+	1    10525 2075
+	1    0    0    -1  
+$EndComp
+Text Label 10525 2300 0    50   ~ 0
+PD1
+Wire Wire Line
+	10525 2225 10525 2300
+$Comp
+L Bonsai_C4:SolderJumper_3_Bridged12 JP4
+U 1 1 62256B8A
+P 10525 2475
+F 0 "JP4" H 10525 2588 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 10525 2589 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10525 2475 50  0001 C CNN
+F 3 "~" H 10525 2475 50  0001 C CNN
+	1    10525 2475
+	1    0    0    -1  
+$EndComp
+Text Label 10525 2700 0    50   ~ 0
+PD0
+Wire Wire Line
+	10525 2625 10525 2700
+Text Label 10325 2475 2    50   ~ 0
+B6
+Text Label 10725 2475 0    50   ~ 0
+B9
 $EndSCHEMATC

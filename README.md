@@ -2,6 +2,9 @@
 
 Brought to you by customMK, Bonsai C is an open source microcontroller board featuring an STM32F303CC microcontroller. Designed to be a drop-in-replacement for Proton C rev 2, Bonsai C is functionally equivalent to the Proton C, while incorporating several design and manufactring improvements, including being "JLCPCB-ready" (aside from components being out-of-stock, which may happen occasionally...or in the case of the STM32F303CC, does happen consistently).
 
+# Bonsai C4
+
+Given the lack of STM32F303CC and relative abundance of STM32F411 (currently), Bonsai C4 is also an open source microcontroller board featuring an STM32F411 microcontroller. Bonsai C54 is functionally equivalent to the Proton C, but due to space constraints, does not meet JLCPCB specifications. Regardless, it can serve as a useful starting point for keyboards designer around STM32F411 as it incorporates the proper hardware for consistent USB DFU boot.
 
 ## Contents
 
