@@ -62,6 +62,12 @@ K FRAM I2C Serial FRAM NVRAM
 F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
 $ENDCMP
 #
+$CMP MB85RS64PNF-G-JNERE1
+D 512Kb serial FRAM nonvolatile Memory, SOP-8
+K FRAM I2C Serial FRAM NVRAM
+F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
+$ENDCMP
+#
 $CMP MIC5504-3.3YM5
 D 300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23
 K Micrel LDO voltage regulator
