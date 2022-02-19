@@ -799,8 +799,6 @@ Text Label 9175 3500 0    50   ~ 0
 B8
 Text Label 7725 4475 0    50   ~ 0
 C15
-Text Label 10325 1225 2    50   ~ 0
-A15
 Wire Wire Line
 	5125 3725 5325 3725
 Wire Wire Line
@@ -976,9 +974,9 @@ Wire Wire Line
 Text Notes 7025 7075 0    79   ~ 0
 Bonsai C4\nDavid Hoelscher\nRay Hung\ncustomMK, LLC
 Text Notes 8125 7650 0    50   ~ 0
-23 January 2022
+18 February 2022
 Text Notes 10600 7625 0    50   ~ 0
--
+1.0
 Text Notes 7375 7500 0    79   ~ 0
 Bonsai C4
 Connection ~ 2625 3725
@@ -1017,8 +1015,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 1700 8600 1700
 Connection ~ 8600 1700
-Text Label 4425 6725 0    50   ~ 0
-B2
 Wire Wire Line
 	5125 4625 5325 4625
 Text Label 5125 4625 0    50   ~ 0
@@ -1096,53 +1092,53 @@ $EndComp
 $Comp
 L Bonsai_C4:r_4.7k_0402_1p R5
 U 1 1 61B043BA
-P 4325 1250
-F 0 "R5" H 4393 1296 50  0000 L CNN
-F 1 "r_4.7k_0402_1p" H 4355 1210 50  0001 L CNN
-F 2 "Bonsai_C4:R_0402_1005Metric" H 5050 1125 50  0001 C CNN
-F 3 "" H 4325 1250 50  0001 C CNN
-F 4 "0402WGF4701TCE" H 4725 1050 50  0001 C CNN "MPN"
-F 5 "4.7k" H 4393 1205 50  0000 L CNN "Display value"
-F 6 "C25900" H 4325 1250 50  0001 C CNN "LCSC"
-	1    4325 1250
+P 4400 1375
+F 0 "R5" H 4468 1421 50  0000 L CNN
+F 1 "r_4.7k_0402_1p" H 4430 1335 50  0001 L CNN
+F 2 "Bonsai_C4:R_0402_1005Metric" H 5125 1250 50  0001 C CNN
+F 3 "" H 4400 1375 50  0001 C CNN
+F 4 "0402WGF4701TCE" H 4800 1175 50  0001 C CNN "MPN"
+F 5 "4.7k" H 4468 1330 50  0000 L CNN "Display value"
+F 6 "C25900" H 4400 1375 50  0001 C CNN "LCSC"
+	1    4400 1375
 	1    0    0    -1  
 $EndComp
 $Comp
 L Bonsai_C4:r_10k_0402_1p R6
 U 1 1 61B0552C
-P 4325 1525
-F 0 "R6" H 4393 1571 50  0000 L CNN
-F 1 "r_10k_0402_1p" H 4355 1485 50  0001 L CNN
-F 2 "Bonsai_C4:R_0402_1005Metric" H 5050 1400 50  0001 C CNN
-F 3 "" H 4325 1525 50  0001 C CNN
-F 4 "0402WGF1002TCE" H 4725 1325 50  0001 C CNN "MPN"
-F 5 "10k" H 4393 1480 50  0000 L CNN "Display value"
-F 6 "C25744" H 4325 1525 50  0001 C CNN "LCSC"
-	1    4325 1525
+P 4400 1650
+F 0 "R6" H 4468 1696 50  0000 L CNN
+F 1 "r_10k_0402_1p" H 4430 1610 50  0001 L CNN
+F 2 "Bonsai_C4:R_0402_1005Metric" H 5125 1525 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+F 4 "0402WGF1002TCE" H 4800 1450 50  0001 C CNN "MPN"
+F 5 "10k" H 4468 1605 50  0000 L CNN "Display value"
+F 6 "C25744" H 4400 1650 50  0001 C CNN "LCSC"
+	1    4400 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 61B05F2E
-P 4325 1700
-F 0 "#PWR0105" H 4325 1450 50  0001 C CNN
-F 1 "GND" H 4330 1527 50  0000 C CNN
-F 2 "" H 4325 1700 50  0001 C CNN
-F 3 "" H 4325 1700 50  0001 C CNN
-	1    4325 1700
+P 4400 1775
+F 0 "#PWR0105" H 4400 1525 50  0001 C CNN
+F 1 "GND" H 4405 1602 50  0000 C CNN
+F 2 "" H 4400 1775 50  0001 C CNN
+F 3 "" H 4400 1775 50  0001 C CNN
+	1    4400 1775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4325 1625 4325 1700
+	4400 1750 4400 1775
 Wire Wire Line
-	4325 1350 4325 1375
+	4400 1475 4400 1500
 Wire Wire Line
-	4325 1100 4325 1150
+	4400 1250 4400 1275
 Wire Wire Line
-	4700 1375 4325 1375
-Connection ~ 4325 1375
+	4775 1500 4400 1500
+Connection ~ 4400 1500
 Wire Wire Line
-	4325 1375 4325 1425
+	4400 1500 4400 1550
 Text Notes 10025 3825 0    50   ~ 0
 1mm square pads on back
 Wire Wire Line
@@ -1178,7 +1174,7 @@ L power:+3.3V #PWR0108
 U 1 1 618914D5
 P 1475 6300
 F 0 "#PWR0108" H 1475 6150 50  0001 C CNN
-F 1 "+3.3V" H 1490 6473 50  0000 C CNN
+F 1 "+3.3V" H 1475 6475 50  0000 C CNN
 F 2 "" H 1475 6300 50  0001 C CNN
 F 3 "" H 1475 6300 50  0001 C CNN
 	1    1475 6300
@@ -1262,8 +1258,8 @@ Wire Wire Line
 	3900 6725 3950 6725
 Wire Wire Line
 	3950 6625 3900 6625
-Text Notes 3450 825  0    50   ~ 0
-VBUS detection is currently only checked for split keyboard\ndesigns in QMK. If Bonsai C4 is used as a reference\nimplementation for non-split and non-battery-powered\nkeyboard, R4/R5 can be removed and pin A9 can be used as GPIO
+Text Notes 3525 975  0    50   ~ 0
+VBUS detection can be for split keyboard\npurposes in QMK. If Bonsai C4 is used as a reference\nimplementation for non-split and non-battery-powered\nkeyboard, R4/R5 can be removed and pin A9 can be used as GPIO.\nFor use in switch matrix, leaving R4 in place is recommended to \ncounteract the internal pull down on A9
 $Comp
 L Bonsai_C4:cap_100nF_16v_0402 C5
 U 1 1 619A206D
@@ -1326,7 +1322,7 @@ Text Label 6700 5225 0    50   ~ 0
 A8
 Text Label 6700 5325 0    50   ~ 0
 VBUS_DET
-Text Label 4700 1375 0    50   ~ 0
+Text Label 4775 1500 0    50   ~ 0
 VBUS_DET
 Text Label 6700 4825 0    50   ~ 0
 A4
@@ -1391,12 +1387,12 @@ Wire Wire Line
 $Comp
 L power:VBUS #PWR09
 U 1 1 618EC45F
-P 4325 1100
-F 0 "#PWR09" H 4325 950 50  0001 C CNN
-F 1 "VBUS" H 4340 1273 50  0000 C CNN
-F 2 "" H 4325 1100 50  0001 C CNN
-F 3 "" H 4325 1100 50  0001 C CNN
-	1    4325 1100
+P 4400 1250
+F 0 "#PWR09" H 4400 1100 50  0001 C CNN
+F 1 "VBUS" H 4415 1423 50  0000 C CNN
+F 2 "" H 4400 1250 50  0001 C CNN
+F 3 "" H 4400 1250 50  0001 C CNN
+	1    4400 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1617,7 +1613,7 @@ F 0 "U1" H 5475 2792 50  0000 C CNN
 F 1 "AAP2967-33VIR1" H 5475 2701 50  0000 C CNN
 F 2 "Bonsai_C4:SOT-23-5" H 5475 2025 50  0001 C CNN
 F 3 "" H 5225 2675 50  0001 C CNN
-F 4 " C370742" H 5475 2425 50  0001 C CNN "LCSC"
+F 4 "C370742" H 5475 2425 50  0001 C CNN "LCSC"
 	1    5475 2425
 	1    0    0    -1  
 $EndComp
@@ -1809,8 +1805,8 @@ Wire Wire Line
 	9675 6225 9675 6275
 Text Notes 7925 875  0    50   ~ 0
 Buffer U5 (“LV1T”) is not for level shifting purposes,\nand thus may be substituted with other buffer logic\nICs (SN74LVC1G34DCKR, SN74LVC1G125DCKR with enable, etc.)
-Text Notes 2225 5500 0    50   ~ 0
-This buffer performs level shifting.\nMay not be required if 5V signals \nare not needed (RGB LED dependent)
+Text Notes 2200 5675 0    50   ~ 0
+This buffer performs level shifting.\nMay not be required if 5V signals \nare not needed (RGB LED dependent)\nor if pull up resistor method is used\n(search “QMK WS2812 driver open\ndrain” for more information)
 Text Label 10175 4050 0    50   ~ 0
 B2
 Text Notes 7825 6000 0    50   ~ 0
@@ -1858,17 +1854,6 @@ D+
 Text Label 9175 2800 0    50   ~ 0
 PD3
 $Comp
-L Bonsai_C4:SolderJumper_3_Bridged12 JP1
-U 1 1 61BF974D
-P 10525 1225
-F 0 "JP1" H 10525 1338 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 10525 1339 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10525 1225 50  0001 C CNN
-F 3 "~" H 10525 1225 50  0001 C CNN
-	1    10525 1225
-	1    0    0    -1  
-$EndComp
-$Comp
 L Bonsai_C4:SolderJumper_3_Bridged12 JP2
 U 1 1 61C1E94D
 P 10525 1650
@@ -1896,8 +1881,6 @@ F 3 "" H 10575 4750 39  0001 C CNN
 $EndComp
 Wire Wire Line
 	10100 4750 10275 4750
-Text Label 10725 1225 0    50   ~ 0
-B7
 Text Label 10325 1650 2    50   ~ 0
 B7
 Wire Wire Line
@@ -1905,12 +1888,8 @@ Wire Wire Line
 Connection ~ 9075 3000
 Text Label 9175 2900 0    50   ~ 0
 PD2
-Wire Wire Line
-	10525 1375 10525 1450
-Text Label 10525 1450 0    50   ~ 0
-PD3
 Text Label 10525 1875 0    50   ~ 0
-PD2
+PD3
 Wire Wire Line
 	10525 1800 10525 1875
 Text Label 9175 3200 0    50   ~ 0
@@ -1955,14 +1934,33 @@ Text Label 10725 2475 0    50   ~ 0
 B9
 $Comp
 L Bonsai_C4:MB85RS64PNF-G-JNERE1 U7
-U 1 1 61F9F92F
+U 1 1 621840DE
 P 1475 6850
-F 0 "U7" H 1575 6500 50  0000 C CNN
-F 1 "MB85RS64PNF-G-JNERE1" H 2025 6400 50  0000 C CNN
+F 0 "U7" H 1575 7350 50  0000 C CNN
+F 1 "MB85RS64PNF-G-JNERE1" H 2025 7250 50  0000 C CNN
 F 2 "Bonsai_C4:SOP-8_3.9x4.9mm_P1.27mm" H 1475 6850 50  0001 C CNN
-F 3 "https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf" H 1275 7200 50  0001 C CNN
-F 4 "C126728" H 1475 6850 50  0001 C CNN "LCSC"
+F 3 "" H 1275 7200 50  0001 C CNN
+F 4 "C8741" H 1475 6850 50  0001 C CNN "LCSC"
 	1    1475 6850
 	1    0    0    -1  
 $EndComp
+Text Label 10525 1450 0    50   ~ 0
+PD2
+Wire Wire Line
+	10525 1375 10525 1450
+Text Label 10725 1225 0    50   ~ 0
+B7
+$Comp
+L Bonsai_C4:SolderJumper_3_Bridged12 JP1
+U 1 1 61BF974D
+P 10525 1225
+F 0 "JP1" H 10525 1338 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 10525 1339 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10525 1225 50  0001 C CNN
+F 3 "~" H 10525 1225 50  0001 C CNN
+	1    10525 1225
+	1    0    0    -1  
+$EndComp
+Text Label 10325 1225 2    50   ~ 0
+A15
 $EndSCHEMATC

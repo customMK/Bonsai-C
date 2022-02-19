@@ -50,22 +50,14 @@ D Digital NPN Transistor, 4k7/4k7, SOT-23
 K ROHM Digital NPN Transistor
 $ENDCMP
 #
-$CMP MB85RC256VPF-G-JNERE2
-D 256Kb serial FRAM nonvolatile Memory, SOP-8
-K FRAM I2C Serial FRAM NVRAM
-F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
-$ENDCMP
-#
 $CMP MB85RS512TPNF-G-JNERE1
 D 512Kb serial FRAM nonvolatile Memory, SOP-8
-K FRAM I2C Serial FRAM NVRAM
-F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
+K FRAM SPI Serial FRAM NVRAM
 $ENDCMP
 #
 $CMP MB85RS64PNF-G-JNERE1
-D 512Kb serial FRAM nonvolatile Memory, SOP-8
-K FRAM I2C Serial FRAM NVRAM
-F https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf
+D 64Kb serial FRAM nonvolatile Memory, SOP-8
+K FRAM SPI Serial FRAM NVRAM
 $ENDCMP
 #
 $CMP MIC5504-3.3YM5
