@@ -14,7 +14,7 @@ For a more compact version of Bonsai C4 that matches the length of a Pro Micro (
 
 ## Images
 
-Bonsai C4 schematic screenshot
+Bonsai C4 schematic
 <img width="890" alt="Bonsai C schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20schematic.png">
 Bonsai C4 PCB front
 

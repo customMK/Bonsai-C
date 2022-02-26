@@ -9,8 +9,9 @@ Brought to you by customMK, Bonsai C4 compact edition is the same circuit as the
 
 ## Images
 
-Bonsai C4 compact edition schematic screenshot
+Bonsai C4 compact edition schematic
 <img width="890" alt="Bonsai C4 compact edition schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20schematic.png">
+
 Bonsai C4 compact edition PCB front
 
 <img width="200" alt="Bonsai C4 compact edition front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20front.png">

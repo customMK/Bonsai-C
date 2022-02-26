@@ -17,7 +17,7 @@ Given the lack of STM32F303CC and relative abundance of STM32F411 (currently), B
 
 ## Images
 
-Bonsai C schematic screenshot
+Bonsai C schematic
 
 <img width="890" alt="Bonsai C schematic" src="https://user-images.githubusercontent.com/8145762/135368910-4f4df901-d462-4e76-adea-b27d1ca6e6b2.png">
 
