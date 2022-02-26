@@ -2,6 +2,8 @@
 
 Brought to you by customMK, Bonsai C4 is an open source microcontroller board featuring an STM32F411CEU6 microcontroller. It is designed to be a drop-in-replacement for Proton C rev 2, Bonsai C, and Pro Micro. 
 
+For a more compact version of Bonsai C4 that matches the length of a Pro Micro (for physical backwards compatibility reasons), please refer to Bonsai C4 compact edition found [here](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact)
+
 ## Contents
 
 - [Images](#images)
@@ -12,12 +14,12 @@ Brought to you by customMK, Bonsai C4 is an open source microcontroller board fe
 
 ## Images
 
-Bonsai C schematic screenshot
+Bonsai C4 schematic screenshot
 <img width="890" alt="Bonsai C schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20schematic.png">
-Bonsai C PCB front
+Bonsai C4 PCB front
 
 <img width="200" alt="Bonsai C front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20front.png">
-Bonsai C PCB back
+Bonsai C4 PCB back
 
 <img width="200" alt="Bonsai C back" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20back.png">
 
