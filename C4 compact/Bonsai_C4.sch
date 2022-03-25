@@ -303,28 +303,28 @@ Connection ~ 2750 2275
 $Comp
 L Bonsai_C4:SN74LV1T34DCKR U4
 U 1 1 60273EC7
-P 3750 5125
-F 0 "U4" H 3925 5350 50  0000 L CNN
-F 1 "SN74LV1T34DCKR" H 3925 5275 50  0000 L CNN
-F 2 "Bonsai_C4:SOT-353_SC-70-5" H 3750 4875 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf" H 3750 5125 50  0001 C CNN
-F 4 "C78541" H 4044 5034 50  0001 L CNN "LCSC"
-	1    3750 5125
+P 3075 5200
+F 0 "U4" H 3250 5425 50  0000 L CNN
+F 1 "SN74LV1T34DCKR" H 3250 5350 50  0000 L CNN
+F 2 "Bonsai_C4:SOT-353_SC-70-5" H 3075 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf" H 3075 5200 50  0001 C CNN
+F 4 "C78541" H 3369 5109 50  0001 L CNN "LCSC"
+	1    3075 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 4875 3750 4925
+	3075 4950 3075 5000
 Wire Wire Line
-	3750 5375 3750 5325
+	3075 5450 3075 5400
 $Comp
 L power:GND #PWR011
 U 1 1 60287984
-P 3750 5375
-F 0 "#PWR011" H 3750 5125 50  0001 C CNN
-F 1 "GND" H 3755 5202 50  0000 C CNN
-F 2 "" H 3750 5375 50  0001 C CNN
-F 3 "" H 3750 5375 50  0001 C CNN
-	1    3750 5375
+P 3075 5450
+F 0 "#PWR011" H 3075 5200 50  0001 C CNN
+F 1 "GND" H 3080 5277 50  0000 C CNN
+F 2 "" H 3075 5450 50  0001 C CNN
+F 3 "" H 3075 5450 50  0001 C CNN
+	1    3075 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -638,19 +638,19 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR024
 U 1 1 605BE7B1
-P 3750 4875
-F 0 "#PWR024" H 3750 4725 50  0001 C CNN
-F 1 "+5V" H 3765 5048 50  0000 C CNN
-F 2 "" H 3750 4875 50  0001 C CNN
-F 3 "" H 3750 4875 50  0001 C CNN
-	1    3750 4875
+P 3075 4950
+F 0 "#PWR024" H 3075 4800 50  0001 C CNN
+F 1 "+5V" H 3090 5123 50  0000 C CNN
+F 2 "" H 3075 4950 50  0001 C CNN
+F 3 "" H 3075 4950 50  0001 C CNN
+	1    3075 4950
 	1    0    0    -1  
 $EndComp
-Text Label 4100 5125 0    50   ~ 0
+Text Label 3425 5200 0    50   ~ 0
 A10_5V
 Wire Wire Line
-	4000 5125 4100 5125
-Text Notes 3975 5225 0    50   ~ 0
+	3325 5200 3425 5200
+Text Notes 3300 5300 0    50   ~ 0
 5V to drive WS2812\n
 $Comp
 L Bonsai_C4:cap_20pF_50v_0402 C8
@@ -706,7 +706,7 @@ Wire Wire Line
 	5525 7300 5525 7325
 Wire Wire Line
 	4650 7300 4650 7325
-Text Label 3375 5125 0    50   ~ 0
+Text Label 2700 5200 0    50   ~ 0
 A10
 $Comp
 L power:GND #PWR022
@@ -1410,30 +1410,30 @@ Wire Wire Line
 $Comp
 L Bonsai_C4:r_100k_0402_1p R8
 U 1 1 61A19E42
-P 3050 5025
-F 0 "R8" H 3118 5071 50  0000 L CNN
-F 1 "r_100k_0402_1p" H 3080 4985 50  0001 L CNN
-F 2 "Bonsai_C4:R_0402_1005Metric" H 3775 4900 50  0001 C CNN
-F 3 "" H 3050 5025 50  0001 C CNN
-F 4 "0402WGF1003TCE" H 3450 4825 50  0001 C CNN "MPN"
-F 5 "100k" H 3118 4980 50  0000 L CNN "Display value"
-F 6 "C25741" H 3050 5025 50  0001 C CNN "LCSC"
-	1    3050 5025
+P 2375 5100
+F 0 "R8" H 2443 5146 50  0000 L CNN
+F 1 "r_100k_0402_1p" H 2405 5060 50  0001 L CNN
+F 2 "Bonsai_C4:R_0402_1005Metric" H 3100 4975 50  0001 C CNN
+F 3 "" H 2375 5100 50  0001 C CNN
+F 4 "0402WGF1003TCE" H 2775 4900 50  0001 C CNN "MPN"
+F 5 "100k" H 2443 5055 50  0000 L CNN "Display value"
+F 6 "C25741" H 2375 5100 50  0001 C CNN "LCSC"
+	1    2375 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR018
 U 1 1 61A2CD3A
-P 3050 4900
-F 0 "#PWR018" H 3050 4750 50  0001 C CNN
-F 1 "+3.3V" H 3065 5073 50  0000 C CNN
-F 2 "" H 3050 4900 50  0001 C CNN
-F 3 "" H 3050 4900 50  0001 C CNN
-	1    3050 4900
+P 2375 4975
+F 0 "#PWR018" H 2375 4825 50  0001 C CNN
+F 1 "+3.3V" H 2390 5148 50  0000 C CNN
+F 2 "" H 2375 4975 50  0001 C CNN
+F 3 "" H 2375 4975 50  0001 C CNN
+	1    2375 4975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 4900 3050 4925
+	2375 4975 2375 5000
 $Comp
 L power:GND #PWR028
 U 1 1 61CEB93F
@@ -1666,7 +1666,7 @@ Connection ~ 6225 3050
 Wire Wire Line
 	6025 3050 6125 3050
 Wire Wire Line
-	3050 5125 3550 5125
+	2375 5200 2875 5200
 Text Label 4900 4825 0    50   ~ 0
 B4_MISO
 $Comp
@@ -1747,7 +1747,7 @@ Wire Wire Line
 	9675 6225 9675 6275
 Text Notes 7925 875  0    50   ~ 0
 Buffer U5 (“LV1T”) is not for level shifting purposes,\nand thus may be substituted with other buffer logic\nICs (SN74LVC1G34DCKR, SN74LVC1G125DCKR with enable, etc.)
-Text Notes 2200 5675 0    50   ~ 0
+Text Notes 3250 5900 0    50   ~ 0
 This buffer performs level shifting.\nMay not be required if 5V signals \nare not needed (RGB LED dependent)\nor if pull up resistor method is used\n(search “QMK WS2812 driver open\ndrain” for more information)
 Text Label 10175 4050 0    50   ~ 0
 B2
@@ -1905,4 +1905,12 @@ F 3 "~" H 10525 1225 50  0001 C CNN
 $EndComp
 Text Label 10325 1225 2    50   ~ 0
 A15
+Text Notes 2225 6025 0    50   ~ 0
+Pull up on A10\nrecommended\nfor relaible USB\nbootloader entry.\nUSART is on A10,\nand USART boot\ntakes priority over\nUSB boot\n(AN2606, Fig 37)
+Text Notes 2125 7575 0    50   ~ 0
+128Mb Flash Chip erase time \nis typically 40 seconds and\nmaximum 200 seconds.\nEnsure SPI timeout thresholds\nare long enough for this
+Text Notes 7000 5725 0    50   ~ 0
+SWDIO
+Text Notes 7000 5825 0    50   ~ 0
+SWCLK
 $EndSCHEMATC
