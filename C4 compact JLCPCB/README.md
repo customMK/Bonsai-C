@@ -16,10 +16,10 @@ Bonsai C4 compact edition schematic
 
 Bonsai C4 compact edition PCB front
 
-<img width="200" alt="Bonsai C4 compact edition front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact%20JLCPCB/img/Bonsai%20C4%20compact%20bottom%20JLCPCB.jpg">
+<img width="200" alt="Bonsai C4 compact edition front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact%20JLCPCB/img/Bonsai%20C4%20compact%20top%20JLCPCB.jpg">
 Bonsai C4 compact edition PCB back
 
-<img width="200" alt="Bonsai C4 compact edition back" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact%20JLCPCB/img/Bonsai%20C4%20compact%20top%20JLCPCB.jpg">
+<img width="200" alt="Bonsai C4 compact edition back" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact%20JLCPCB/img/Bonsai%20C4%20compact%20bottom%20JLCPCB.jpg">
 
 
 ## License
