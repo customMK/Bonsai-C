@@ -48,26 +48,28 @@ Bonsai C is a general-purpose ARM-based microcontroller board. It was designed t
 
 Bonsai C is designed to be a drop-in-replacement to Proton C, and as such, they are functionally equivalent. However, there are several subtle design differences in contrast to Proton C:
 
-Bonsai C uses only parts in the JLCPCB SMT library (including the USB C connector)
-Bonsai C’s USB data traces are shorter and more direct
-Bonsai C's USB data traces are designed for the correct impedance, using a 4 layer board design with power and ground planes.
-Bonsai C’s crystal clock lines are shorter and more direct
-Bonsai C adds a ferrite between USB shield and ground, improving EMI (radiated susceptibility and radiated emissions)
-Bonsai C connects USB VBUS to the ESD chip instead of the +5V (+5V is polyfuse-limited and reverse-diode-protected)
-Bonsai C has correct labeling of the C14 and C15 pads (they are currently swapped in Proton C documentation and PCB silkscreen labeling)
-Bonsai C uses ceramic bulk decoupling capacitors instead of tantalum capacitors
-Bonsai C avoids via-in-pad (note: via-in-pad without non-conductive epoxy fill can cause solder joints to become starved of solder during assembly)
+<ul>
+  <li>Bonsai C uses only parts in the JLCPCB SMT library (including the USB C connector)</li>
+  <li>Bonsai C’s USB data traces are shorter and more direct</li>
+  <li>Bonsai C's USB data traces are designed for the correct impedance, using a 4 layer board design with power and ground planes.</li>
+  <li>Bonsai C’s crystal clock lines are shorter and more direct</li>
+  <li>Bonsai C adds a ferrite between USB shield and ground, improving EMI (radiated susceptibility and radiated emissions)</li>
+  <li>Bonsai C connects USB VBUS to the ESD chip instead of the +5V (+5V is polyfuse-limited and reverse-diode-protected)</li>
+  <li>Bonsai C has correct labeling of the C14 and C15 pads (they are currently swapped in Proton C documentation and PCB silkscreen labeling)</li>
+  <li>Bonsai C uses ceramic bulk decoupling capacitors instead of tantalum capacitors</li>
+  <li>Bonsai C avoids via-in-pad (note: via-in-pad without non-conductive epoxy fill can cause solder joints to become starved of solder during assembly)</li>
+</ul>
 
 ## Build information
 
 Bonsai C is a four layer PCB design.
 
-If you plan to fabricate the Bonsai C design "as-is" without modificiation, within the "build" folder are three different zip files to make it easier to achieve this:
+If you plan to fabricate the Bonsai C design "as-is" without modificiation, within the "build" folder are two different zip files to make it easier to achieve this:
+<ul>
+<li><b>Bonsai_C_Gerbers_Only.zip</b> contains the Gerber files only. If you plan to solder parts on your own, you can simply take the zip file, send it to the PCB fab of your choice, and get boards made.</li>
 
-<b>Bonsai_C_Gerbers_Only.zip</b> contains the Gerber files only. If you plan to solder parts on your own, you can simply take the zip file, send it to the PCB fab of your choice, and get boards made.
-
-<b>Bonsai_C_PCBA.zip</b> has the set of files needed to make fully-assembled PCBs; this includes the Gerber files above as well as a BOM and position file for assembly. These files can be provided to most of PCB assembly shops when ordering fully assembled boards. Depending on the assembly shop, it may be necessary to use alternative parts for some of the passive components (depending on where components are sourced from) but these replacements .
-
+<li><b>Bonsai_C_PCBA.zip</b> has the set of files needed to make fully-assembled PCBs; this includes the Gerber files above as well as a BOM and position file for assembly. These files can be provided to most of PCB assembly shops when ordering fully assembled boards. Depending on the assembly shop, it may be necessary to use alternative parts for some of the passive components (depending on where components are sourced from).</li>
+</ul>
 Included are also JLCPCB-ready BOM and position files, so uploading the design can be done by simply uploading the Gerber zip, BOM file, and CPL file to JLCPCB. However, from time to time, parts may go in and out of stock without suitable replacements in the JLCPCB library, necessitating some tailoring and/or hand soldering of components.
 
 To use the lower cost STM32F303CB microcontroller instead of STM32F303CC, simply edit the BOM file; the footprint is identical between the CC and CB variants.
