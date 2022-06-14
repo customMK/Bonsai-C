@@ -1,12 +1,12 @@
 # Bonsai C
 
-Brought to you by customMK, Bonsai C is an open source microcontroller board featuring an STM32F303CC microcontroller. Designed to be a drop-in-replacement for Proton C rev 2 (and thus also a replacment for Pro Micros). Bonsai C is functionally equivalent to the Proton C, while incorporating several design and manufactring improvements, including being "JLCPCB-ready" (aside from components being out-of-stock, which may happen occasionally...or in the case of the STM32F303CC, happens consistently).
+Brought to you by customMK, Bonsai C (also called Bonsai C3) is an open source microcontroller board featuring an STM32F303CC microcontroller. Designed to be a drop-in-replacement for Proton C rev 2 (and thus also a replacment for Pro Micros). Bonsai C is functionally equivalent to the Proton C, while incorporating several design and manufactring improvements, including being "JLCPCB-ready" (provided that components are in-stock).
 
 # Bonsai C4
 
 Bonsai C4 is also an open source microcontroller board featuring an STM32F411 microcontroller (because STM32F303CC has been unavailable for quite some time). Bonsai C4 is also designed to be a drop-in-repalcement for Pro Micros an Proton C. Aside from the hardware being usable in DIY keyboard kits, Bonsai C4 can serve as a useful reference and starting point for keyboards designer using STM32F411 becuase it incorporates the hardware necessary consistent USB DFU boot. More info on Bonsai C4 can be found [here](https://github.com/customMK/Bonsai-C/tree/main/C4)
 
-Bonsai C4 is available in both a [compact edition](https://github.com/customMK/Bonsai-C/tree/main/C4) (same size as Pro Micro) and [extended edition] (https://github.com/customMK/Bonsai-C/tree/main/C4%20compact) (same size as Proton C). There is also a [JLCPCB-ready version of the compact edition](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact%20JLCPCB), which meets hole size and trace/space requirements for JLCPCB
+Bonsai C4 is available in both a [compact edition](https://github.com/customMK/Bonsai-C/tree/main/C4) (same size as Pro Micro) and [extended edition](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact) (same size as Proton C). There is also a [JLCPCB-ready version of the compact edition](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact%20JLCPCB), which meets hole size and trace/space requirements for JLCPCB
 
 ## Contents
 
@@ -23,7 +23,7 @@ Bonsai C schematic
 
 <img width="890" alt="Bonsai C schematic" src="https://user-images.githubusercontent.com/8145762/135368910-4f4df901-d462-4e76-adea-b27d1ca6e6b2.png">
 
-Bonsai C fabricated by JLCPCB (disregard extra width, used to be JLCPCB requirement for 20mm minimum)
+Bonsai C fabricated by JLCPCB (disregard the extra width, 20mm minimum width used to be JLCPCB requirement)
 
 <img src="https://user-images.githubusercontent.com/8145762/135368388-da9367da-9e1b-4b06-abdc-4d8d9658e27e.jpg" width="200">
 
