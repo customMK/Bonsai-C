@@ -972,9 +972,9 @@ Wire Wire Line
 Wire Wire Line
 	1975 875  2375 875 
 Text Notes 7025 7075 0    79   ~ 0
-Bonsai C4\nDavid Hoelscher\nRay Hung\ncustomMK, LLC
+Bonsai C4\nDavid Hoelscher\ncustomMK, LLC
 Text Notes 8125 7650 0    50   ~ 0
-18 February 2022
+1 May 2022
 Text Notes 10600 7625 0    50   ~ 0
 1.0
 Text Notes 7375 7500 0    79   ~ 0
@@ -1259,7 +1259,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 6625 3900 6625
 Text Notes 3525 975  0    50   ~ 0
-VBUS detection can be used for split keyboard\npurposes in QMK. If Bonsai C4 is used as a reference\nimplementation for non-split and non-battery-powered\nkeyboard, R4/R5 can be removed and pin A9 can be used as GPIO.\nFor use in switch matrix, leaving R4 in place is recommended to \ncounteract the internal pull down on A9
+VBUS detection can be used for split keyboard\npurposes in QMK. If Bonsai C4 is used as a reference\nimplementation for non-split and non-battery-powered\nkeyboard, R4/R5 can be removed and pin A9 can be used as GPIO.\nFor use in switch matrix, leaving R5 in place is recommended to \ncounteract the internal pull down on A9
 $Comp
 L Bonsai_C4:cap_100nF_16v_0402 C5
 U 1 1 619A206D
