@@ -1,4 +1,4 @@
-# Bonsai C4 compact edition, JLCPCB
+# Bonsai C4 Compact Edition, JLCPCB
 
 Brought to you by customMK, Bonsai C4 Compact Edition for JLCPCB is the same as Bonsai C4 Compact Edition, except minor adjustments were made to comply with JLCPCB trace/space and hole size requirements, as well as to use parts generally available through JLCPCB
 

@@ -10,7 +10,7 @@ Bonsai C3 features an STM32F303 microcontroller, and has the exact same electric
 
 # Bonsai C4 Extended Edition
 
-Bonsai C4 Extended Edition features an STM32F411 microcontroller. It is designed to be a drop-in-repalcement for Proton C, making it also compatible with ProMicro-based designs. The board is available for purchase at customMK, and can be built through JLCPCB as well. In adition to the board being usable in DIY keyboard kits, Bonsai C4 can serve as a useful reference and starting point for keyboard designers planning to use STM32F411 becuase it incorporates the hardware necessary consistent USB DFU boot.
+Bonsai C4 Extended Edition features an STM32F411 microcontroller. It is designed to be a drop-in-repalcement for Proton C, making it also compatible with ProMicro-based designs. The board is [available for purchase at customMK](https://shop.custommk.com/products/bonsai-c4-microcontroller-board), and can be built through JLCPCB as well. In addition to the board being usable in DIY keyboard kits, Bonsai C4 can serve as a useful reference and starting point for keyboard designers planning to use STM32F411 becuase it incorporates the hardware necessary consistent USB DFU boot.
 
 More info on Bonsai C4 Extended Edition can be found [here](https://github.com/customMK/Bonsai-C/tree/main/C4%20extended)
 

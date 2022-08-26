@@ -15,7 +15,7 @@ For a more compact version of Bonsai C4 that matches the length of a Pro Micro (
 ## Images
 
 Bonsai C4 Extended Edition Schematic
-<img width="890" alt="Bonsai C4 Extended Edition schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20schematic.png">
+<img width="890" alt="Bonsai C4 Extended Edition schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20extended/img/Bonsai%20C4%20schematic.png">
 Bonsai C4 Extended Edition front photo
 
 <img width="200" alt="Bonsai C4 front photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20extended/img/Bonsai%20C4%20front%20photo.jpeg">

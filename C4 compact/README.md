@@ -1,4 +1,4 @@
-# Bonsai C4 compact edition
+# Bonsai C4 Compact Edition
 
 Brought to you by customMK, Bonsai C4 Compact Edition is an open source microcontroller board featuring an STM32F411CEU6 microcontroller. It is designed to be a drop-in-replacement for Proton C rev 2 and Pro Micro. It has the same circuit as the Bonsai C4 Extended Edition, with the exception that the PCB is made shorter (to match the ProMicro length) and the on-board FRAM and flash memory are located on the back of the PCB. Bonsai C4 Compact Edtiion is most useful for pre-existing keyboard designs that only have the physical space available for a ProMicro (Kyria, Sofle, Lily58, etc.), while retaining the full capability of Bonsai C4 Extended Edtion (aside from the extra pins).
 
@@ -23,7 +23,7 @@ Bonsai C4 compact edition PCB front photo
 
 Bonsai C4 compact edition PCB back photo
 
-<img width="200" alt="Bonsai C4 compact edition back photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20back%20photo.jped">
+<img width="200" alt="Bonsai C4 compact edition back photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20back%20photo.jpeg">
 
 Bonsai C4 compact edition PCB front
 
