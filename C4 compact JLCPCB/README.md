@@ -1,8 +1,8 @@
 # Bonsai C4 compact edition, JLCPCB
 
-Brought to you by customMK, Bonsai C4 compact edition for JLCPCB is the same as Bonsai C4 compact edition, except minor adjustments were made to comply with JLCPCB trace/space and hole size requirements, as well as to use parts generally available through JLCPCB
+Brought to you by customMK, Bonsai C4 compact edition for JLCPCB is the same as Bonsai C4 Compact Edition, except minor adjustments were made to comply with JLCPCB trace/space and hole size requirements, as well as to use parts generally available through JLCPCB
 
-Note that the EEPROM/FRAM chip and the flash memory chips are on the back side of the board and must be soldered by hand (since JLCPCB will only populate parts on one side of a board)
+Note that the EEPROM/FRAM chip and the flash memory chips are on the back side of this board. They can be soldered on by hand using JLCPCB's economical assembly service, or JLCPCB can solder them on at higher expense using their standard assembly service.
 
 ## Contents
 
