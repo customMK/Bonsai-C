@@ -52,6 +52,8 @@ There are two pairs of solder bridges on the back of the board. Cutting the trac
 
 It should be noted that the default of assignment of STM32F411 A15 to ProMicro D2 was done intentionally, even though technically, as a USART TX pin, it seems like it should be wired to ProMicro D3 instead. The reason for this is that many more keyboards tend to use ProMicro D2 for half duplex soft serial communciations (as compared to those which use ProMicro D3). Unlike Atmega32U4 on the ProMicro, the STM32F411 can only use the USART TX pin for this purpose, so the USART TX pin (A14) has been wired to ProMicro D2. The solder bridge opposite the USB connector can be used to swap these back, but it seems better to support the more common use by default without requiring modification to the board.
 
+[Bonsai C4 Product Guide](https://custommk.github.io/#/Bonsai-C4/quick-start) (work in progress)
+
 # Split keyboard reset
 
 Many split keyboard designs use the same PCB for left and right sides. This requires one of the microcontroller boards to be flipped over for installation, which makes the reset button inaccessible. A simple workaround is to un-solder the reset switch, and then solder it between the DFU and GND pins. Temporarily connecting DFU and GND performs the same function as the reset switch; specifically, it reboots the microcontroller into bootloader mode.
