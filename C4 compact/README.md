@@ -19,11 +19,11 @@ Bonsai C4 schematic
 
 Bonsai C4 compact edition PCB front photo
 
-<img width="200" alt="Bonsai C4 compact edition front photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20front%20photo.png">
+<img width="200" alt="Bonsai C4 compact edition front photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20front%20photo.jpeg">
 
 Bonsai C4 compact edition PCB back photo
 
-<img width="200" alt="Bonsai C4 compact edition back photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20back%20photo.png">
+<img width="200" alt="Bonsai C4 compact edition back photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20compact/img/Bonsai%20C4%20compact%20edition%20back%20photo.jped">
 
 Bonsai C4 compact edition PCB front
 

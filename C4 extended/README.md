@@ -1,8 +1,8 @@
-# Bonsai C4
+# Bonsai C4 Extended Edition
 
-Brought to you by customMK, Bonsai C4 is an open source microcontroller board featuring an STM32F411CEU6 microcontroller. It is designed to be a drop-in-replacement for Proton C rev 2, Bonsai C, and Pro Micro. 
+Brought to you by customMK, Bonsai C4 Extended Edition is an open source microcontroller board featuring an STM32F411CEU6 microcontroller. It is designed to be a drop-in-replacement for Proton C rev 2 and Pro Micro. 
 
-For a more compact version of Bonsai C4 that matches the length of a Pro Micro (for physical backwards compatibility reasons), please refer to Bonsai C4 compact edition found [here](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact)
+For a more compact version of Bonsai C4 that matches the length of a Pro Micro (for physical backwards compatibility reasons), please see Bonsai C4 Compact Edition found [here](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact)
 
 ## Contents
 
@@ -14,14 +14,20 @@ For a more compact version of Bonsai C4 that matches the length of a Pro Micro (
 
 ## Images
 
-Bonsai C4 schematic
-<img width="890" alt="Bonsai C schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20schematic.png">
-Bonsai C4 PCB front
+Bonsai C4 Extended Edition Schematic
+<img width="890" alt="Bonsai C4 Extended Edition schematic" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20schematic.png">
+Bonsai C4 Extended Edition front photo
 
-<img width="200" alt="Bonsai C front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20front.png">
-Bonsai C4 PCB back
+<img width="200" alt="Bonsai C4 front photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20extended/img/Bonsai%20C4%20front%20photo.jpeg">
+Bonsai C4 PCB Extended Edition back photo
 
-<img width="200" alt="Bonsai C back" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4/img/Bonsai%20C4%20back.png">
+<img width="200" alt="Bonsai C4 back photo" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20extended/img/Bonsai%20C4%20back%20photo.jpeg">
+Bonsai C4 Extended Edition PCB front
+
+<img width="200" alt="Bonsai C4 front" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20extended/img/Bonsai%20C4%20front.png">
+Bonsai C4 PCB Extended Edition PCB back 
+
+<img width="200" alt="Bonsai C4 back" src="https://raw.githubusercontent.com/customMK/Bonsai-C/main/C4%20extended/img/Bonsai%20C4%20back.png">
 
 # Pinout and DMA streams
 
@@ -29,9 +35,9 @@ Detailed pinout information, peripherals available on each pin, and a DMA stream
 
 # Bonsai C4 and JLCPCB
 
-The STM32F411CEU6 has a large thermal pad on the back that prevents signal vias and traces from being placed under the microcontroller. As such, it is challenging to route all the traces in a way that fits the original form factor of the ProMicro/Proton C/Bonsai C. To keep the same form factor, via-in-pad was necessary. For consistent results in PCB production, this ususaly means doing a non-conductive via fill, cap, and planarize operation, which JLCPCB does not do. 
+The STM32F411CEU6 has a large thermal pad on the back that prevents signal vias and traces from being placed under the microcontroller. As such, it is challenging to route all the traces in a way that fits the original form factor of the ProMicro/Proton C/Bonsai C. To keep the same form factor, via-in-pad is necessary. For consistent results in PCB production, this ususaly means doing a non-conductive via fill, cap, and planarize operation, which JLCPCB does not do. 
 
-While the JLCPCB process may not be ideal for such a layout, we have now successfully built and tested prototype of Bonsai C4 compact edition built by JLCPCB (March 2022) at a cost of around $35 per PCB for five PCBs. Some parts had to be swapped out, hole sizes were changes, and traces modified, but the files used to produce these JLCPCB can be found [here](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact%20JLCPCB)
+While the JLCPCB process may not be ideal for such a layout, we have now successfully built and tested prototype of Bonsai C4 Compact Edition built by JLCPCB (as of March 2022) at a cost of around $35 per PCB for five PCBs. Some parts had to be swapped out, hole sizes were changes, and traces modified, but the files used to produce these JLCPCB can be found [here](https://github.com/customMK/Bonsai-C/tree/main/C4%20compact%20JLCPCB)
 
 # Usage in split keyboards
 
